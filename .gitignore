@@ -1,0 +1,9 @@
+venv/
+env/
+.pytest_cache/
+.vscode/
+lambda.zip
+__pycache__/
+.envs
+credentials.json
+dependencies/
