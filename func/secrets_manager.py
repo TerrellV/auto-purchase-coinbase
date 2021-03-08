@@ -7,10 +7,10 @@ import json
 
 
 Secrets = namedtuple('Secrets', 'live,sandbox')
-APICredentials = namedtuple('APICredentials', 'api_key,secret,passphrase')
+APICredentials = namedtuple('APICredentials', 'api_key,secret,passphrase,payment_name')
 
 
-def secrets():
+def get_secrets():
     '''
     Returns sandbox and live credentials structured as:
 
